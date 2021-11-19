@@ -1,0 +1,94 @@
+:root {
+    /*Nieghbor Palette*/
+    --color1: #85470D;
+    --color2: #CFA195;
+    --color3: #A56758;
+    --color4: #56423D;
+    /*fuente*/
+    --fuente: 'Ubuntu', sans-serif;
+}
+
+html {
+    background-image: linear-gradient(to right top, #a56758, #915e51, #7d544a, #694b44, #56423d);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    text-align: left;
+    font-family: var(--fuente);
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#instrucciones {
+    display: block;
+}
+
+table {
+    background-color: var(--color1);
+}
+
+td {
+    border-style: solid;
+    border-radius: 1mm;
+    height: 20mm;
+    width: 20mm;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    text-decoration: none;
+    font-family: var(--fuente);
+    padding: 1rem;
+    color: var(--color2);
+    background-color: var(--color4);
+    border: solid;
+    border-radius: 1rem;
+    margin: auto;
+}
+
+#tablero {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1mm;
+}
+
+.ElectronA {
+    margin: auto;
+    padding: 2mm;
+    background-color: rgb(202, 26, 123);
+    border-style: solid;
+    border-radius: 3mm;
+    width: 5mm;
+    cursor: pointer;
+    text-align: center;
+}
+
+.ElectronB {
+    margin: auto;
+    padding: 2mm;
+    background-color: rgb(54, 136, 15);
+    border-style: solid;
+    border-radius: 3mm;
+    width: 5mm;
+    cursor: pointer;
+    text-align: center;
+}
+
+.Neutron {
+    margin: auto;
+    padding: 2mm;
+    background-color: rgb(178, 178, 192);
+    border-style: solid;
+    border-radius: 3mm;
+    width: 5mm;
+    cursor: pointer;
+    text-align: center;
+}
